@@ -1,0 +1,27 @@
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  &:hover {
+    color: inherit;
+  }
+}
+
+.card {
+  height: 380px;
+}
+
+.productInCart {
+  td {
+    vertical-align: middle;
+  }
+}
+
+.productImageInCart {
+  width: 50px;
+}
